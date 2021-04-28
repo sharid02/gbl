@@ -1,0 +1,137 @@
+body{
+  background:#F6F6F6;
+}
+ul,li{
+  list-style-type: none;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+.MuiSvgIcon-root{
+  height: 39px !important;
+  color: #fff;
+}
+.postArea textarea{
+  background: linear-gradient(rgba(58, 180, 251, 0.26),rgba(233, 247, 255, 0.26));
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.storys{
+  position: relative;
+  padding-top: 20px;
+  background:#fff;
+  width: 100%;
+ 
+}
+.addStory{
+  background: #fff;
+  box-shadow:0px 0px 10px #000;
+  border-radius: 10px;
+  margin-top: -10px;
+  padding: 2px;
+}
+.storyProfile> img{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.storys .MuiSvgIcon-root{
+  margin-top: 10px;
+  color: #000 !important;
+}
+.storys .rightArrow{
+  position: absolute;
+  top: 50%;
+  left: 112%;
+  transform: translate(-50%,-50%);
+}
+.postArea{
+  position: relative;
+}
+.postArea .uploadIcons {
+  position: absolute;
+  left:70%;
+  bottom: 0;
+}
+.previewfiles{
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+.postArea .uploadIcons .MuiSvgIcon-root{
+  color: #000;
+  margin-left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.postArea .uploadIcons  input[type="submit"]{
+  margin-left: 30px;
+  background: #3AB4FB;
+  color: #fff;
+  padding: 3px 10px;
+  border: none;border-radius: 10%;
+  cursor: pointer;
+}
+.sLIcons .i1 .MuiSvgIcon-root{
+  color: #0E9C97;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sLIcons .i2 .MuiSvgIcon-root{
+color:#0090FD;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.sLIcons .i3 .MuiSvgIcon-root{
+  color: #FED01A;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sLIcons .i4 .MuiSvgIcon-root{
+color:#C4028C;
+margin-bottom: 10px;
+font-size: 30px;
+}
+.sLIcons .i5 .MuiSvgIcon-root{
+  color: #0EE138;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sLIcons .i6 .MuiSvgIcon-root{
+color:#C0392B;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.sLIcons .i7 .MuiSvgIcon-root{
+  color: #2C3E50;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sLIcons .i8 .MuiSvgIcon-root{
+color:#750101;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.Rm {
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+}
+.Rm .MuiSvgIcon-root{
+  color: #3AB4FB;
+  font-size: 30px;
+}
+.groupIcons .MuiSvgIcon-root{
+  color: #3AB4FB;
+  font-size: 30px;
+}
+/*post user profile pic*/
+.userp .MuiAvatar-root{
+  width:50px;
+  height:50px;
+}
